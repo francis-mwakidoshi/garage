@@ -25,11 +25,6 @@
                 height: 100vh;
             }
 
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
 
             .position-ref {
                 position: relative;
@@ -65,6 +60,19 @@
         </style>
     </head>
     <body>
-      <h1>Hellow Nairobi Garage</h1>
+        <div class="flex-center position-ref full-height">
+
+
+            <div class="content">
+
+                    <h1>Submit Your details</h1>
+                </div>
+
+                <div class="links">
+                    <a href="{{ url('/') }}">Home</a>
+                    <a href="{{ route('register') }}">Register</a>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
