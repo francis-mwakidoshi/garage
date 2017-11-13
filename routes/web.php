@@ -13,4 +13,4 @@
 
 Route::get('/', 'Controller@index')->name('home');
 
-Route::get('/register', 'Controller@addDetails')->name('register');
+Route::resource('members','MemberController');

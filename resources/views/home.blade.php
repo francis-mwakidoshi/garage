@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>Laravel</title>
+          <link href="{{asset('css/app.css')}}" rel="stylesheet">
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
@@ -69,8 +70,8 @@
                 </div>
 
                 <div class="links">
-                    <a href="{{ url('/') }}">Home</a>
-                    <a href="{{ route('register') }}">Register</a>
+                    <a class="btn btn-success" href="{{ url('/') }}">Home</a>
+                    <a class="btn btn-success" class="btn btn-primary" href="{{ route('members.index') }}">Register</a>
                 </div>
             </div>
         </div>

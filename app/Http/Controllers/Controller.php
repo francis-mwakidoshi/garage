@@ -16,8 +16,5 @@ class Controller extends BaseController
        return view('/home');
    }
 
-   public function addDetails() {
-       // Terms and conditions
-       return view('/register');
-   }
+
 }
