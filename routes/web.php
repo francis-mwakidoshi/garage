@@ -12,5 +12,6 @@
 */
 
 Route::get('/', 'Controller@index')->name('home');
+Route::get('pay', 'Controller@getForm')->name('pay');
 
 Route::resource('members','MemberController');

@@ -72,6 +72,7 @@
                 <div class="links">
                     <a class="btn btn-success" href="{{ url('/') }}">Home</a>
                     <a class="btn btn-success" class="btn btn-primary" href="{{ route('members.index') }}">Register</a>
+                      <a class="btn btn-success" class="btn btn-primary" href="{{ url('/pay') }}">Make Payment</a>
                 </div>
             </div>
         </div>
